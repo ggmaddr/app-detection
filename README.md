@@ -24,16 +24,3 @@ Select between following demos: `pose_estimation`, `object_detection`, `image_re
 * The `pose_estimation`, `object_detection` and `instance_segmentation` pipelines use the web camera for source input and plot the
 output in an `Image-Viewer`.
 * The `image_recognition` still uses `File` source (listening for new images in the `/tmp/input` folder) and plots the result in an `Image-Viewer`. 
-
-
-# Build
-
-```bash
-git clone https://github.com/tzolov/spring-boot-tensorflow-demo.git
-cd ./spring-boot-tensorflow-demo
-./mvnw clean install
-```
-
-NOTE: Due to the snapshot dependencies on the Tensorflow app starters the desired functionality may not be present.  
-
-  
